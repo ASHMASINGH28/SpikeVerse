@@ -1,1 +1,3 @@
 # SpikeVerse
+In this Assignment I have implemented q learning RL algorithm and Deep Q learning Algorithm using python lib gym and torch.Further I used Mtplotlib to visualize the learning pattern. To train the model I used Epsilon greedy policy which consists both of exploration and exploitation. I used Replay Buffer to basically store the experience of the model till now and then use it to analyze how model has learnt till now.
+Q learning involves training the data using continued iterations called episodes and then calculating reward after each episode. These rewards aree then analysed to find the best policy for our model as the goal of QL algorithm is to learn the best policy. DQN combines Q learning with Neural Networks to train the model in much better way.
